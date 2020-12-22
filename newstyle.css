@@ -1,0 +1,210 @@
+
+.socialbar{
+    height: 30px;
+    background: RGB(120, 41, 101);
+}
+ul.social{
+    display: block;
+    margin: 0px auto;
+    padding: 5px 0px;
+    list-style: none;
+    text-align: center;
+}
+ul.social li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+ul.social li a:hover{
+    color: rgb(255,255,255);
+}
+ul.social li i{
+    font-size: 16px;
+}
+.footer{
+    height: 50px;
+        background: RGB(120, 41, 101);
+    
+}
+.footer p{
+    color: RGB(234, 234, 234);
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+.middleHeader{
+    padding: 10px 0px;
+}
+.logo{
+    position: relative;
+}
+.searchBtn{
+    position: relative;
+    height: 53px;
+}
+.searchBtn i{
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 18px;
+    color: RGB(96,96,96);
+}
+.searchBtn i:hover{
+    cursor: pointer;
+}
+.middleHeader_clr{
+    margin-bottom: 10px;
+    background: RGB(255,255,255);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.16);
+}
+.pageContain{
+    padding: 15px;
+}
+.banner{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+.banner img {
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    height: 350px;
+}
+.bottomHeader_clr{
+    background: RGB(255,255,255);
+}
+.bottomHeader{
+    height: 50px;
+}
+ul.navMenu{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    flex-direction: row;
+}
+ul.navMenu li{
+    display: inline-flex;
+    flex: 1;
+}
+ul.navMenu li span{
+    width: 100%;
+}
+ul.navMenu li a{
+    color: RGB(96,96,96);
+    width: 100%;
+    font-size: 16px;
+    
+    line-height: 40px;
+    letter-spacing: 0.01pt;
+}
+ul.navMenu li a:hover{
+    text-decoration: none;
+    color: RGB(120, 41, 101);
+    -webkit-transition: all 1s;
+-moz-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+.textLeft{
+    text-align: left;
+}
+.textCenter{
+     text-align: center;
+}
+.textRight{
+text-align: right;
+}
+
+
+.mobileMenu{
+    display: none;
+}
+.mobileMenu a i{
+    font-size: 22px;
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    color: RGB(120, 41, 101);
+}
+.searchBox{
+    display: block;
+    position: absolute;
+    width: 0px;
+    top: 12px;
+    right: 36px;
+    transition: width .8s ease-out;
+}
+.searchBox input{
+    width: 100%;
+    visibility: hidden;
+    padding: 5px 10px;
+    border: 2px solid rgb(96,96,96);
+    border-radius: 20px;
+}
+.searchBox.showsearchBox input{
+    visibility: visible;
+}
+.searchBox.showsearchBox{
+    
+    transition: width .8s ease-in;
+    width: 100%;
+}
+
+
+
+/*Responsive Stylesheet*/
+@media screen and (max-width: 991px) {
+     .bottomHeader_clr{
+        display: none;
+     }
+     .mobileMenu{
+    display: block;
+    }
+    .searchBtn i {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    color: RGB(96,96,96);
+}
+.footer p{
+    font-size: 14px;
+    line-height: 40px;
+}
+
+}
+/*Responsive Stylesheet*/
+.banner {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    height: auto;
+}
+.fontcolor{
+    font-weight: 700!important;
+    color: #782965;
+}
+.font-weight-bold{
+	color: #782965;
+}
+.btn-group{
+	width:25%;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    width: 33%;
+}
+.crousel{
+	width:100%;
+}
+.backgroundImg{
+	height:477px;
+	width:1305;
+}
+.your-class{
+	
+	width:100%;
+}
